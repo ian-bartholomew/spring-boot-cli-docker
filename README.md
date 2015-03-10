@@ -1,6 +1,5 @@
-SPRING BOOT DOCKER BUILD HELLO WORLD
-================================
-This is a POC to have a Spring Boot project get all of the requirements and build in a Docker Container
+# SPRING BOOT CLI DOCKER
+A Docker container with Gradle and Spring Boot
 
 
 Installation
@@ -9,7 +8,7 @@ Installation
 ```sh
 docker build -t <username>/spring-boot-cli-docker .
 docker images
-docker run -it -p 8080:8080 <image id> 
+docker run -it <image id> 
 ```
 
 Check it
